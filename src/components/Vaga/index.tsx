@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 import { LinkAnuncio, TitleAnuncioDaVaga, VagasAnuncio } from './styles'
-=======
-import styles from './Vaga.module.css'
->>>>>>> a567c443a2dc616d51459467dbc19656c3d328f1
 
 type Props = {
   titulo: string
@@ -15,13 +11,8 @@ type Props = {
 }
 
 const Vaga = (props: Props) => (
-<<<<<<< HEAD
   <VagasAnuncio>
     <TitleAnuncioDaVaga>{props.titulo}</TitleAnuncioDaVaga>
-=======
-  <li className={styles.vaga}>
-    <h3 className={styles.vagaTitulo}>{props.titulo}</h3>
->>>>>>> a567c443a2dc616d51459467dbc19656c3d328f1
     <ul>
       <li>Localizacao: {props.localizacao}</li>
       <li>Senioridade: {props.nivel}</li>
@@ -31,15 +22,8 @@ const Vaga = (props: Props) => (
       </li>
       <li>Requisitos: {props.requisitos.join(', ')}</li>
     </ul>
-<<<<<<< HEAD
     <LinkAnuncio href="#">Ver detalhes e candidatar-se</LinkAnuncio>
   </VagasAnuncio>
-=======
-    <a className={styles.vagaLink} href="#">
-      Ver detalhes e candidatar-se
-    </a>
-  </li>
->>>>>>> a567c443a2dc616d51459467dbc19656c3d328f1
 )
 
 export default Vaga
