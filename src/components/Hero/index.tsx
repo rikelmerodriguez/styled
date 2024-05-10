@@ -1,6 +1,5 @@
 import { Container } from '../../styles'
 import { Hero as Baner, Tituloh2 } from './styles'
-//import styles from './Hero.module.css'
 
 const Hero = () => (
   <Baner>
