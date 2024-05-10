@@ -22,6 +22,7 @@ export const Vagas = styled.li`
 export const VagaTitulo = styled.h3`
   font-weight: bold;
   margin-bottom: 16px;
+  height: 38px;
 `
 export const LinkdaMinhaVaga = styled.a`
   border-color: var(--cor-secundaria);
