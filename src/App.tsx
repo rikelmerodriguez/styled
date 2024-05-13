@@ -7,7 +7,6 @@ function App() {
   return (
     <>
       <EstiloGlobal />
-      <EstiloGlobal />
       <Header />
       <Hero />
       <Container>

@@ -1,6 +1,6 @@
 import { Vagas, VagaTitulo, LinkdaMinhaVaga } from './styles'
 
-type Props = {
+export type Props = {
   titulo: string
   localizacao: string
   nivel: string
@@ -22,9 +22,7 @@ const Vaga = (props: Props) => (
       </li>
       <li>Requisitos: {props.requisitos.join(', ')}</li>
     </ul>
-    <LinkdaMinhaVaga as="a" href="#">
-      Ver detalhes e candidatar-se
-    </LinkdaMinhaVaga>
+    <LinkdaMinhaVaga href="#">Ver detalhes e candidatar-se</LinkdaMinhaVaga>
   </Vagas>
 )
 export default Vaga
